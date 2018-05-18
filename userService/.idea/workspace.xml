@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/UserServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="UserResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/http/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="-419">
               <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +82,8 @@
       <file leaf-file-name="UserServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wenqi/users/service/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="478">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +94,8 @@
       <file leaf-file-name="UserResourceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wenqi/users/http/UserResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="777">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,7 +181,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="107" />
     <option name="y" value="46" />
     <option name="width" value="1440" />
@@ -373,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserResourceTest">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -594,8 +601,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserResourceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserResourceTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.UserServiceApplication" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.MovieServiceTest.testAddUser" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MovieServiceTest.testGetUser" />
@@ -624,9 +631,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieServiceTest - 2018.05.17 at 17h 35m 10s.xml">
-      <configuration name="MovieServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MovieServiceTest - 2018.05.17 at 17h 37m 48s.xml">
       <configuration name="MovieServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -639,13 +643,13 @@
     <history-entry file="MovieServiceTest_testGetUser - 2018.05.17 at 18h 00m 50s.xml">
       <configuration name="MovieServiceTest.testGetUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieServiceTest_testGetUsers - 2018.05.17 at 17h 36m 48s.xml">
-      <configuration name="MovieServiceTest.testGetUsers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserResourceTest - 2018.05.17 at 17h 53m 18s.xml">
       <configuration name="UserResourceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserResourceTest - 2018.05.17 at 18h 08m 56s.xml">
+      <configuration name="UserResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceTest - 2018.05.17 at 18h 35m 52s.xml">
       <configuration name="UserResourceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserServiceTest - 2018.05.17 at 18h 01m 45s.xml">
@@ -654,9 +658,12 @@
     <history-entry file="UserServiceTest - 2018.05.17 at 18h 08m 45s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest - 2018.05.17 at 18h 36m 35s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1006,17 +1013,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/http/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,15 +1049,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/UserServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wenqi/users/http/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wenqi/users/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="478">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1069,8 +1076,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wenqi/users/http/UserResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="777">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

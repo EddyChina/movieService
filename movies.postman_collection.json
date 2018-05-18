@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "5076098d-ebf2-4442-8d51-7c7ee4d88f9a",
+		"name": "movies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User By User Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/users/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 123,\n  \"userName\": \"foo\",\n  \"firstName\": \"David\",\n  \"lastName\": \"Brown\",\n  \"pin\": \"1234\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users By Search Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movie By Movie Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/movies/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movies",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Movie",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 123,\n\t\"name\": \"Avengers: Infinity War\",\n\t\"isPlaying\": true,\n\t\"length\": 7200,\n\t\"trailerUrl\": \"https://youtu.be/6ZfuNTqbHE8\",\n\t\"genre\": \"Fantasy/Science Fiction Film\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movies By Search Name",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/movies/name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movies",
+						"name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movies By Theater Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/movies/theater?theater=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movies",
+						"theater"
+					],
+					"query": [
+						{
+							"key": "theater",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movies By Genre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/movies/genre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"movies",
+						"genre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Theater By Theater Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8082/theaters/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"theaters",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create theater",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 123,\n\t\"name\": \"AMC\",\n\t\"location\": \"3111 Mission College Blvd, Santa Clara, CA 95054\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/theaters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"theaters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get theaters By Search Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8082/theaters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"theaters"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
