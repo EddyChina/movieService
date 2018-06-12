@@ -7,4 +7,6 @@ public interface TheaterRepository extends CrudRepository<Theater, Long> {
     Iterable<Theater> findByNameContaining(String name);
 
     Iterable<Theater> findByLocationContaining(String location);
+
+
 }

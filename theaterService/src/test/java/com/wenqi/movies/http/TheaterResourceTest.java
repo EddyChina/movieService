@@ -43,13 +43,18 @@ public class TheaterResourceTest {
         Theater newTheater = new Theater();
         newTheater.setName("testTheaterName");
         newTheater.setLocation("testTheaterLocation");
-        doReturn(newTheater).when(theaterRepository).save(newTheater);
+
+        // 这里的save一定要是class类型，因为如果直接传一个对象的引用的话，实际执行时 两个对象的内存地址并不一致， 所以会返回null
+        doReturn(newTheater).when(theaterRepository).save(any(Theater.class));
+
+        when(theaterRepository.save(any(Theater.class))).thenReturn(newTheater);
 
         MvcResult mockResponse = mockMvc.perform(post("/theaters/").accept(MediaType.APPLICATION_JSON_VALUE).content(getNewTheater())
                 .contentType(MediaType.APPLICATION_JSON)).andDo(print()).andReturn();
         assertThat(mockResponse.getResponse().getStatus()).isEqualTo(HttpStatus.CREATED.value());
         String expectedResponseBody = new String(Files.readAllBytes(Paths.get("src/test/resources/theater.json")));
-        String mvcResponse = new String(mockResponse.getResponse().getContentAsByteArray());
+//        String mvcResponse = new String(mockResponse.getResponse().getContentAsByteArray());
+        String mvcResponse = mockResponse.getResponse().getContentAsString();
         JSONAssert.assertEquals(expectedResponseBody, mvcResponse, true);
 
         verify(theaterRepository, times(1)).save(any(Theater.class));
