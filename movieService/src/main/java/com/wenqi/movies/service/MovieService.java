@@ -11,7 +11,7 @@ public interface MovieService {
 
     Iterable<Movie> getMoviesByName(String name);
 
-    void deleteMovie(Movie movie);
+    void deleteMovie(long movieId);
 
     boolean isPlaying(Movie movie);
 

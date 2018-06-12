@@ -1,7 +1,6 @@
 package com.wenqi.movies.http;
 
 import com.wenqi.movies.entity.Movie;
-import com.wenqi.movies.entity.impl.MovieImpl;
 import com.wenqi.movies.http.entity.HttpMovie;
 import com.wenqi.movies.service.MovieService;
 import org.slf4j.Logger;
@@ -77,7 +76,7 @@ public class MovieResource {
      * @return
      */
     private Movie convert(HttpMovie httpMovie) {
-        MovieImpl movie = new MovieImpl();
+        Movie movie = new Movie();
         movie.setName(httpMovie.name);
         movie.setIsPlaying(httpMovie.isPlaying);
         movie.setLength(httpMovie.length);

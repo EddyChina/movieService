@@ -1,0 +1,10 @@
+[
+  {
+    "id": 0,
+    "name": "testMovieName",
+    "isPlaying": true,
+    "length": 99999,
+    "trailerUrl": "testUrl",
+    "genre": "testGenre"
+  }
+]
